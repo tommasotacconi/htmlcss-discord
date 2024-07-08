@@ -25,9 +25,20 @@ nav > div{
 }
 
 figure {
-    width: 40%;
-    background-color: olivedrab;
+    padding: 20px 0;
 }
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
 
 /* Utilities */
 .background-nav {
@@ -69,11 +80,6 @@ figure {
     background-color: aqua;
 } */
 
-h1 {
-    margin-bottom: 50px;
-    font-size: 36px;
-}
-
 .introduction-card > p {
     font-size: 20px;
     line-height: 30px;
@@ -95,12 +101,8 @@ h1 {
     padding: var(--bg-pd-lg);
 }
 
-.bd-seagreen {
-    background-color: lightseagreen;
-}
-
-.bd-azure {
-    background-color: azure;
+.bd-grey {
+    background-color: #f6f6f6;
 }
 
 .bd-mturquoise {
@@ -108,12 +110,20 @@ h1 {
 }
 
 .text-argument {
-    width: 60%;
-    background-color: yellowgreen;
+    flex-basis: 40%;
+    padding: 60px;
+}
+
+.text-argument > p {
+    line-height: 25px;
 }
 
 .higher {
     min-height: var(--mh-xxxl);
+}
+
+.argument-technology > figure {
+    width: 100%;
 }
 
 .background-nav-card {

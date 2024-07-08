@@ -53,6 +53,10 @@
     display: flex;
 }
 
+.flex-grow {
+    flex-grow: 1;
+}
+
 .container-lg {
     max-width: 850px;
     margin: 0 auto;
