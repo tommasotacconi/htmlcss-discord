@@ -75,12 +75,14 @@ figure {
 }
 
 .background-intro {
-    background-color: indigo;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
     padding: var(--bg-pd-lg);
 }
 
 .introduction-card {
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .background-argument {
