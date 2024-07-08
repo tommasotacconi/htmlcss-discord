@@ -1,0 +1,58 @@
+/* Utilities */
+:root {
+    --nav-pd: 5px;
+    --bg-pd-sm: 15px;
+    --bg-pd-lg: 40px;
+    --mh-sm: 50px;
+    --mh-lg: 250px;
+    --mh-xl: 300px;
+    --mh-xxl: 400px;
+    --mh-xxxl: 700px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container-lg {
+    max-width: 850px;
+    margin: 0 auto;
+    min-height: var(--mh-xl)
+}
+
+.container-xl {
+    max-width: 1100px;
+    margin: 0 auto;
+    min-height: var(--mh-xxl)
+}
+
+.dashed-border{
+    border: 1px dashed orange
+}
+
+.nav-principal-content {
+    width: 60%;
+}
+
+.nav-side-content{
+    width: 20%;
+}
+
+.row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: var(--space); */
+}
+
+.row-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.align-items-center {
+    align-items: center;
+}

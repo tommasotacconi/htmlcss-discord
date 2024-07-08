@@ -1,0 +1,128 @@
+/* Css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+header {
+    min-height: var(--mh-xxl);
+}
+
+nav {
+    line-height: 30px;
+    background-color: aquamarine;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav > div{
+    padding: var(--nav-pd)
+}
+
+span {
+    margin: 0 5px;
+}
+
+figure {
+    width: 40%;
+    background-color: olivedrab;
+}
+
+/* Utilities */
+.background-nav {
+    padding: var(--bg-pd-sm);
+    background-color: slateblue;
+}
+
+.logo {
+    text-align: left;
+}
+
+.login {
+    text-align: right;
+}
+
+.background-intro {
+    background-color: indigo;
+    padding: var(--bg-pd-lg);
+}
+
+.introduction-card {
+    background-color: aqua;
+}
+
+.background-argument {
+    min-height: var(--mh-xxl);
+    padding: var(--bg-pd-lg);
+}
+
+.bd-seagreen {
+    background-color: lightseagreen;
+}
+
+.bd-azure {
+    background-color: azure;
+}
+
+.bd-mturquoise {
+    background-color: mediumturquoise;
+}
+
+.text-argument {
+    width: 60%;
+    background-color: yellowgreen;
+}
+
+.higher {
+    min-height: var(--mh-xxxl);
+}
+
+.background-nav-card {
+    min-height: var(--mh-xxl);
+    padding: 5px 40px 0;
+    background-color: cadetblue;
+}
+
+.nav-card {
+    max-width: 1100px;
+    margin: 0 auto;
+    min-height: 500px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid white;
+}
+
+.contacts {
+    width: calc(100% / 3);
+    background-color: royalblue;
+}
+
+.all-links {
+    width: calc(100% / 3 * 2);
+    background-color: rosybrown;
+}
+
+.column-links {
+    width: calc(100% / 4);
+}
+
+.background-register-zone {
+    height: 70px;
+    background: green;
+    padding: 0 40px 0;
+    border-top: 1px solid green;
+}
+
+.modified-container-xl {
+    min-height: auto;
+    height: 60px;
+    background-color: mediumturquoise;
+    margin-top: 10px;
+}
+
+.logo.footer-register-zone, .registration-btn.footer-register-zone {
+    height: 50%;
+    background-color: aquamarine;
+    padding: var(--nav-pd);
+}
