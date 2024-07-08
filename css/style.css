@@ -38,7 +38,9 @@ h2 {
     margin-bottom: 25px;
 }
 
-
+p {
+    line-height: 25px;
+}
 
 /* Utilities */
 .background-nav {
@@ -114,8 +116,8 @@ h2 {
     padding: 60px;
 }
 
-.text-argument > p {
-    line-height: 25px;
+.argument-technology > .text-argument {
+    padding: 5px 20px 0;
 }
 
 .higher {
