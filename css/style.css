@@ -24,10 +24,6 @@ nav > div{
     padding: var(--nav-pd)
 }
 
-/* span {
-    margin: 0 5px;
-} */
-
 figure {
     width: 40%;
     background-color: olivedrab;
@@ -60,18 +56,6 @@ figure {
 
 .login > button {
     background-color: white;
-    font-size: 16px;
-    padding: 10px 15px;
-    border-radius: 18px;
-    border: 0px;
-}
-
-.login > button:hover {
-    background-color: #eaeaea;
-    border: 1px solid #6b84de;
-    padding: 9px 14px;
-    border-radius: 17px;
-    cursor: pointer;
 }
 
 .background-intro {
@@ -81,8 +65,29 @@ figure {
     padding: var(--bg-pd-lg);
 }
 
-.introduction-card {
-    /* background-color: aqua; */
+/* .introduction-card {
+    background-color: aqua;
+} */
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.introduction-card > p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.btn-apri-nel-browser{
+    background-color: #043391;
+    color: white;
+}
+
+.hover-modified:hover{
+    background-color: #021439;
 }
 
 .background-argument {
