@@ -131,7 +131,7 @@ p {
 .background-nav-card {
     min-height: var(--mh-xxl);
     padding: 5px 40px 0;
-    background-color: cadetblue;
+    background-color: #021439;
 }
 
 .nav-card {
@@ -142,13 +142,17 @@ p {
     border-bottom: 3px solid white;
 }
 
+.discord-platform-page, .all-links > *{
+    padding-top: 20px;
+}
+
 .discord-platform-page {
     width: calc(100% / 3);
-    background-color: royalblue;
     color: white;
 }
 
-.discord-platform-page > h1{
+.discord-platform-page > h3{
+    font-size: 25px;
     color: #807eff;
     margin-bottom: 20px;
 }
@@ -164,11 +168,19 @@ p {
 
 .all-links {
     width: calc(100% / 3 * 2);
-    background-color: rosybrown;
+    color: white;
 }
 
 .column-links {
     width: calc(100% / 4);
+}
+
+.column-links > h4 {
+    color: #807eff;
+}
+
+.column-links li {
+    list-style-type: none;
 }
 
 .background-register-zone {

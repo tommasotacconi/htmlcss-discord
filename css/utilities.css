@@ -10,6 +10,10 @@
     --mh-xxxl: 700px;
 }
 
+.lheight-m {
+    line-height: 30px
+}
+
 .color-wh {
     color: white;
 }
