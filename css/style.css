@@ -128,10 +128,12 @@ p {
     width: 100%;
 }
 
-.background-nav-card {
-    min-height: var(--mh-xxl);
-    padding: 5px 40px 0;
-    background-color: #021439;
+.bd-dark-grey {
+    background-color: #021439;   
+}
+
+footer {
+    padding: 15px 20px 0;
 }
 
 .nav-card {
@@ -183,22 +185,13 @@ p {
     list-style-type: none;
 }
 
-.background-register-zone {
-    height: 70px;
-    background: green;
-    padding: 0 40px 0;
-    border-top: 1px solid green;
-}
-
 .modified-container-xl {
     min-height: auto;
     height: 60px;
-    background-color: mediumturquoise;
     margin-top: 10px;
 }
 
-.logo.footer-register-zone, .registration-btn.footer-register-zone {
-    height: 50%;
-    background-color: aquamarine;
+.logo.footer-register-zone,
+.registration-btn-container.footer-register-zone {
     padding: var(--nav-pd);
 }
