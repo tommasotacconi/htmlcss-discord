@@ -84,9 +84,9 @@ p {
     padding: var(--bg-pd-lg);
 }
 
-/* .introduction-card {
-    background-color: aqua;
-} */
+.introduction-card.container-lg{
+    padding: 50px 0;
+}
 
 .introduction-card > p {
     font-size: 20px;
