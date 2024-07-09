@@ -128,12 +128,17 @@ p {
     width: 100%;
 }
 
-.bd-dark-grey {
-    background-color: #021439;   
+.btn-scarica-per-mac.btn-big-mouse-on:hover {
+    padding: 15.2px 21.2px;
+    border-radius: 25.2px; 
 }
 
 footer {
     padding: 15px 20px 0;
+}
+
+.bd-dark-grey {
+background-color: #021439;   
 }
 
 .nav-card {
