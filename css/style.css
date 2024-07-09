@@ -28,6 +28,12 @@ figure {
     padding: 20px 0;
 }
 
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
 h1 {
     margin-bottom: 50px;
     font-size: 36px;
@@ -56,11 +62,6 @@ p {
     vertical-align: middle;
 }
 
-.important-links > a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: white;
-}
 
 .login {
     text-align: right;
@@ -69,6 +70,11 @@ p {
 
 .login > button {
     background-color: white;
+}
+
+.login-button.btn-mouse-on:hover {
+    padding: 9.2px 14.2px;
+    border-radius: 17.2px;
 }
 
 .background-intro {
@@ -176,6 +182,10 @@ background-color: #021439;
 .all-links {
     width: calc(100% / 3 * 2);
     color: white;
+}
+
+.all-links a {
+    margin: 0;
 }
 
 .column-links {
