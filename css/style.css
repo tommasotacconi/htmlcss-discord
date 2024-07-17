@@ -59,17 +59,8 @@ p {
     filter: invert(0.97);
 }
 
-.background-argument-thematic-channels .img-separation {
-    top: 40px;
-}
-
-.background-argument-voice-channels .img-separation {
-    rotate: 180deg;
-    top: 85px;
-}
-
-.background-argument-technology .img-separation {
-    top: -85px;
+.img-separation.end-voice-channels{
+    transform: rotateX(180deg) rotateY(180deg);
 }
 /*  */
 
