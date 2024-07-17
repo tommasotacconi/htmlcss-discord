@@ -75,8 +75,10 @@
             
             <!-- Con ogni background-argument si imposta uno sfondo
             che contiene una card a proposito di un singolo argomento -->
-            <div class="background-argument bd-grey"> 
-                <div class="argument-thematic-channels container-xl d-flex">
+            
+            <!-- sezione -->
+            <div class="background background-argument-thematic-channels"> 
+                <section class="argument-thematic-channels container-xl d-flex">
                     <figure class="flex-grow"><img src="img/item1.svg"
                         alt="Gruppi su Discord"></figure>
                     <div class="text-argument">
@@ -86,24 +88,51 @@
                             della tua giornata senza intasare una chat di gruppo.
                         </p>
                     </div>
-                </div>
+                </section>
+                <!-- immagine di divisione tra le sezioni -->
+                <img class="img-separation" src="img/wave.svg" alt="">
             </div>
-            <div class="background-argument">
-                <div class="argument-voice-channels container-xl d-flex">
-                    <div class="text-argument dashed-border"></div>
-                    <figure class="flex-grow dashed-border"><img src="img/item2.svg"
+
+            <!-- sezione -->            
+            <div class="background background-argument-voice-channels bd-grey">
+                <section class="argument-voice-channels container-xl d-flex">
+                    <div class="text-argument">
+                        <h2>Dove trovarsi è facile</h2>
+                        <p>Mettiti comodo in un canale vocale quando hai tempo. Gli
+                            amici nel tuo server possono vedere che sei lì e unirsi
+                            istantaneamente senza dover chiamare.
+                        </p>
+                    </div>
+                    <figure class="flex-grow"><img src="img/item2.svg"
                         alt="Canali vocali su Discord"></figure>
-                    </div>
+                </section>
+
+                <!-- immagine di divisione tra le sezioni -->
+                <img class="img-separation" src="img/wave.svg" alt="">
             </div>
-            <div class="background-argument bd-grey">
-                <div class="argument-comunity container-xl d-flex">
-                    <figure class="flex-grow dashed-border"><img src="img/item3.svg"
+
+            <!-- sezione -->            
+            <div class="background background-argument-community">
+                <section class="argument-comnunity container-xl d-flex">
+                    <figure class="flex-grow"><img src="img/item3.svg"
                         alt="Community su Discord"></figure>
-                        <div class="text-argument dashed-border"></div>
+                    <div class="text-argument">
+                        <h2>Da pochi a un fandom</h2>
+                        <p>Dai inizio ad una community di qualsiasi dimensione con
+                            strumenti di moderazione e accesso ai membri personalizzabile.
+                            Concedi ai membri poteri speciali, crea canali privati, e 
+                            molto altro.
+                        </p>
                     </div>
-                </div>
-            <div class="background-argument higher">
-                <div class="argument-technology container-xl higher txt-centered">
+                </section>
+            </div>
+            
+            <!-- sezione -->            
+            <div class="background background-argument-technology higher bd-grey">
+                <!-- immagine di divisione tra le sezioni -->
+                <img class="img-separation" src="img/wave.svg" alt="">
+
+                <section class="argument-technology container-xl higher txt-centered">
                     <div class="text-argument txt-centered">
                         <h2>Tecnologia affidabile per tenersi in contatto</h2>
                         <p>Video e audio a bassa latenza ti faranno sentire come se
@@ -118,12 +147,11 @@
                     <button class="btn-scarica-per-mac btn-big btn-big-mouse-on">
                         <i class="fa-solid fa-arrow-down"></i>
                         Scarica per Mac
-                    </button>
-                        
-                    </div>
-                </div>
-
-                
+                    </button>      
+                </section>
+            </div>
+            
+        
         </main>
 
         <!-- Footer -->

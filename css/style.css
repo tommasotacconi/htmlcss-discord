@@ -49,8 +49,32 @@ p {
 }
 
 /* Utilities */
+
+/* images of separation between sections */
+.img-separation {
+    display: block;
+    width: calc(100% + 80px);
+    position: relative;
+    left: -40px;
+    filter: invert(0.97);
+}
+
+.background-argument-thematic-channels .img-separation {
+    top: 40px;
+}
+
+.background-argument-voice-channels .img-separation {
+    rotate: 180deg;
+    top: 85px;
+}
+
+.background-argument-technology .img-separation {
+    top: -85px;
+}
+/*  */
+
 .background-nav {
-    padding: var(--bg-pd-sm);
+    padding: var(--bd-pd-sm);
     background-color: #3e73dd;
 }
 
@@ -81,7 +105,7 @@ p {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-position: center;
-    padding: var(--bg-pd-lg);
+    padding: var(--bd-pd-lg);
 }
 
 .introduction-card.container-lg{
@@ -104,9 +128,13 @@ p {
     background-color: #021439;
 }
 
-.background-argument {
+.background-argument-community {
+    padding: var(--bd-pd-xxl) 0;
+}
+
+.background-argument-technology {
     min-height: var(--mh-xxl);
-    padding: var(--bg-pd-lg);
+    padding-bottom: var(--bd-pd-xl);
 }
 
 .bd-grey {

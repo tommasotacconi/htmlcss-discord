@@ -1,8 +1,10 @@
 /* Utilities */
 :root {
     --nav-pd: 5px;
-    --bg-pd-sm: 15px;
-    --bg-pd-lg: 40px;
+    --bd-pd-sm: 15px;
+    --bd-pd-lg: 40px;
+    --bd-pd-xl: 60px;
+    --bd-pd-xxl: 80px;
     --mh-sm: 50px;
     --mh-lg: 250px;
     --mh-xl: 300px;
