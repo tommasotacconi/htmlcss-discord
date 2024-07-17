@@ -128,6 +128,12 @@ p {
     padding-bottom: var(--bd-pd-xl);
 }
 
+section.argument-technology {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 85%;
+}
+
 .bd-grey {
     background-color: #f6f6f6;
 }
